@@ -1,3 +1,36 @@
-baseURL = "http://example.org/"
+baseURL = "https://thousandaire.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Thousand Token"
+theme = "github-style"
+googleAnalytics = "UA-123456-789"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Thousand Token"
+  description = "A Decentralized Digital Currency for Thousandaires by Thousandaires"
+  github = ""
+  facebook = ""
+  twitter = "christitustech"
+  linkedin = "ctitus"
+  instagram = "christitustech"
+  tumblr = ""
+  email = "contact@christitus.com"
+  url = "https://thousandaire.io"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  favicon = "/images/github.png"
+  location = "United States"
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/ChrisTitusTech"
+  [[params.links]]
+    title = "Link2"
+    href = "https://thousandaire.io"
+    icon = "https://thousandaire.io/images/avatar.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
